@@ -1,0 +1,62 @@
+1. INGREDIENTI 
+
+Pasta sfoglia all'uovo verde
+ingredienti per ragù
+Carne bovina 300 g
+Carote 50 g
+Cipolle 50 g
+sedano 50 g
+passata di pomodoro 300 g
+vino rosso 100 g
+dado vegetale
+sale q.b 
+pepe q.b 
+1 cucchiaio olio extra vergine di oliva
+besciamella pronta 140 g
+burro 
+parmigiano
+
+2. Abbiamo tutti gli ingredienti?
+    2.1  : true -> Inizio a cucinare
+    2.2  : false -> Acquisto gli ingredienti -> torniamo al punto 2.
+
+//PREPARAZIONE
+
+3. Preparazione brodo
+    3.1 riempire la pentola d'acqua 
+    3.2 mettere sul fuoco (Z) la pentola  
+    3.3 L'acqua bolle?
+            3.3.1 : true -> aggiungere il dado
+            3.3.2 : false -> Aspettare che l'acqua bolle -> ritornare al punto 3.3
+    3.4 mescolare (Y)
+    3.5 lasciare cuocere a fuoco lento
+
+4. Ripieno
+    4.1 prendere Carote 
+    4.2 prendere sedano
+    4.3 prendere Cipolle
+    4.4 triturare (X) gli ingredienti 4.1, 4.2, 4.3 
+    4.5 prendere la padella 
+    4.6 (Z) la padella
+    4.7 aggiungere olio 
+    4.8 l'olio è pronto?
+            : true-> aggiungere gli ingredienti al passo 4.4
+            : false ->  tornare al 4.8
+    4.9 il soffritto è pronto?
+            : true -> aggiungere la Carne
+            : false -> tornare al 4.9
+    4.10 (Y)        
+    4.11 la carne e il soffritto sono rosolati?
+            : true -> aggiungere il vino    
+            :false -> tornare al 4.11
+    4.12 (Y)        
+    4-13 il vino è sfumato?
+            : true -> aggiungere la passata di pomodoro
+            : false -> tornare al 4.12
+    4.14 aggiungere un mestolo di brodo 
+    4.15 (Y)     
+    4.16 il brodo si è asciugato?
+            : true ->  aggiungere brodo
+            : false -> tornare al 4.15
+    4.17 lasciare cuocere 2 ore        
+5.
